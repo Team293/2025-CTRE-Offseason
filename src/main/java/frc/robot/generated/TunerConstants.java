@@ -131,7 +131,7 @@ public class TunerConstants {
     private static final int kFrontLeftEncoderId = 25;
     private static final Angle kFrontLeftEncoderOffset = Rotations.of(-0.237548828125);
     private static final boolean kFrontLeftSteerMotorInverted = true;
-    private static final boolean kFrontLeftEncoderInverted = true;
+    private static final boolean kFrontLeftEncoderInverted = false;
 
     private static final Distance kFrontLeftXPos = Inches.of(11.625);
     private static final Distance kFrontLeftYPos = Inches.of(11.625);
@@ -142,7 +142,7 @@ public class TunerConstants {
     private static final int kFrontRightEncoderId = 31;
     private static final Angle kFrontRightEncoderOffset = Rotations.of(0.245361328125);
     private static final boolean kFrontRightSteerMotorInverted = true;
-    private static final boolean kFrontRightEncoderInverted = true;
+    private static final boolean kFrontRightEncoderInverted = false;
 
     private static final Distance kFrontRightXPos = Inches.of(11.625);
     private static final Distance kFrontRightYPos = Inches.of(-11.625);
@@ -153,7 +153,7 @@ public class TunerConstants {
     private static final int kBackLeftEncoderId = 22;
     private static final Angle kBackLeftEncoderOffset = Rotations.of(0.07373046875);
     private static final boolean kBackLeftSteerMotorInverted = true;
-    private static final boolean kBackLeftEncoderInverted = true;
+    private static final boolean kBackLeftEncoderInverted = false;
 
     private static final Distance kBackLeftXPos = Inches.of(-11.625);
     private static final Distance kBackLeftYPos = Inches.of(11.625);
@@ -164,7 +164,7 @@ public class TunerConstants {
     private static final int kBackRightEncoderId = 28;
     private static final Angle kBackRightEncoderOffset = Rotations.of(0.2041015625);
     private static final boolean kBackRightSteerMotorInverted = true;
-    private static final boolean kBackRightEncoderInverted = true;
+    private static final boolean kBackRightEncoderInverted = false;
 
     private static final Distance kBackRightXPos = Inches.of(-11.625);
     private static final Distance kBackRightYPos = Inches.of(-11.625);
